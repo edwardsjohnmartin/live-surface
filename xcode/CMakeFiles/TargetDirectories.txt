@@ -1,0 +1,3 @@
+/Users/jedwards/projects/live-surface/xcode/CMakeFiles/ALL_BUILD.dir
+/Users/jedwards/projects/live-surface/xcode/CMakeFiles/ZERO_CHECK.dir
+/Users/jedwards/projects/live-surface/xcode/CMakeFiles/surface.dir

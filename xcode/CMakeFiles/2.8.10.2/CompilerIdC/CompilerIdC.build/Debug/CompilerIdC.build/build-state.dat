@@ -1,0 +1,68 @@
+TCompilerIdC
+v5
+r1
+cCheck dependencies
+cCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+cPhaseScriptExecution "Run Script" /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+t2
+s0
+
+N/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+t2
+s0
+
+N/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList
+c00000000522F9A98000000000000009F
+t1378851480
+s159
+
+N/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c00000000522F9A98000000000000002A
+t1378851480
+s42
+
+N/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+c00000000522F9A970000000000002F20
+t1378851479
+s12064
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies12a5c918d2dfb741^4e46e118d2dfb741^---0#1#0#--18"Check dependencies36"979CF88C-9ACA-448E-A99C-DA6FFF3A50F4-
+
+CCompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler
+s400544280.884941
+e400544281.085274
+r1
+xCompileC
+x./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o
+x/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c80b9e218d2dfb741^99d31519d2dfb741^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c0000000000000000^2494"CompileC ./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o CMakeCCompilerId.c normal i386 c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -I/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/CompilerIdC.hmap -I/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources/i386 -I/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/DerivedSources -F/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC -MMD -MT dependencies -MF /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.d --serialize-diagnostics /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.dia -c /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/CMakeCCompilerId.c -o /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CMakeCCompilerId.o36"4A28E698-E8AC-4DAF-848D-7E36687EEF77-
+
+CLd /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC normal i386
+s400544281.094816
+e400544281.216780
+r1
+xLd
+x/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Link /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC32591819d2dfb741^3d7e3719d2dfb741^---0#0#0#--644"Ld ./CompilerIdC normal i386    cd /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -L/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC -F/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC -filelist /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Objects-normal/i386/CompilerIdC.LinkFileList -o /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC36"92614B2E-790E-41EA-A807-BFE5E6BA3A66-
+
+CPhaseScriptExecution "Run Script" /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s400544281.225058
+e400544281.244454
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'74ef3919d2dfb741^54ac3e19d2dfb741^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-400544281#0#47#-0#-----0#0#0#--366"PhaseScriptExecution "Run Script" ./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC    /bin/sh -c /Users/jedwards/projects/live-surface/xcode/CMakeFiles/2.8.10.2/CompilerIdC/./CompilerIdC.build/Debug/CompilerIdC.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"FC9F448C-5CC3-49EB-8C58-43B9656868CE-
+

@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+       archiveVersion = 1;
+       classes = {
+       };
+       objectVersion = 46;
+       objects = {
+
+/* Begin PBXAggregateTarget section */
+              6CAA297BCE7445CFB5F54EBA /* ALL_BUILD */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 1FF16D0E4646450AB431AFC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+                     buildPhases = (
+                            3BC60184B6FE46EBAD4E9BAC /* CMake Rules */,
+                     );
+                     dependencies = (
+                            ECC97FEBA9F34927B6584FA0 /* PBXTargetDependency */,
+                            90749AFF2F3743D1A5CD3CF8 /* PBXTargetDependency */,
+                     );
+                     name = ALL_BUILD;
+                     productName = ALL_BUILD;
+              };
+              2FEF8C7DFE4A4B11A8ACBCC7 /* ZERO_CHECK */ = {
+                     isa = PBXAggregateTarget;
+                     buildConfigurationList = 64AE402D2043465CA467EE8D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+                     buildPhases = (
+                            781ACCB6C42B4825B78CE281 /* CMake Rules */,
+                     );
+                     dependencies = (
+                     );
+                     name = ZERO_CHECK;
+                     productName = ZERO_CHECK;
+              };
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+4B608212FF384187BCF5C8D1 /* /Users/jedwards/projects/live-surface/main.cpp */ = {isa = PBXBuildFile; fileRef = 8BD77503BEBC472F9FD6EF5A /* /Users/jedwards/projects/live-surface/main.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+6B3169AFFB6049DAA11C20FB /* /Users/jedwards/projects/live-surface/texture.cpp */ = {isa = PBXBuildFile; fileRef = CA69BCE6E3EB403F91E6515F /* /Users/jedwards/projects/live-surface/texture.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+5FE0565F6E50453790A847B3 /* /Users/jedwards/projects/live-surface/canvas2d.cpp */ = {isa = PBXBuildFile; fileRef = B6524FC0AF094CD1AC30E3F7 /* /Users/jedwards/projects/live-surface/canvas2d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+B692BAD8B5994F0293EE5A11 /* /Users/jedwards/projects/live-surface/gl2d.cpp */ = {isa = PBXBuildFile; fileRef = 74740C0A0C95408BAB7E1148 /* /Users/jedwards/projects/live-surface/gl2d.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+86739748C92B42A7A68F1593 /* /Users/jedwards/projects/live-surface/image.cpp */ = {isa = PBXBuildFile; fileRef = F4B81AF34BCB49FA83D577DE /* /Users/jedwards/projects/live-surface/image.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+170A2FCB84D843E3A871B75D /* /Users/jedwards/projects/live-surface/dijkstra2.cpp */ = {isa = PBXBuildFile; fileRef = E15D7EBC2FA54FD48E1FBE37 /* /Users/jedwards/projects/live-surface/dijkstra2.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+70DA57DC67374A4EA6EED356 /* /Users/jedwards/projects/live-surface/image_graph.cpp */ = {isa = PBXBuildFile; fileRef = F62CF1283A644A5C91794E8C /* /Users/jedwards/projects/live-surface/image_graph.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+2E55AA2A02C8492487ED35AB /* /Users/jedwards/projects/live-surface/snode.cpp */ = {isa = PBXBuildFile; fileRef = 906DB841F83B4DF7900AB711 /* /Users/jedwards/projects/live-surface/snode.cpp */; settings = { COMPILER_FLAGS = ""; }; };
+63AC37985AA44D5E9B81A29C /* /Users/jedwards/projects/live-surface/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = BF650EAD7A384515B7E4CF37 /* /Users/jedwards/projects/live-surface/CMakeLists.txt */; settings = { COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+              B906EAF519FD4A0CB887BCC5 /*  */ = {
+                     isa = PBXBuildStyle;
+              };
+              AC1B818C4EC0428B9337D6FA /* Debug */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Debug;
+              };
+              05E3BD38E8F04C0299AB8578 /* Release */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = Release;
+              };
+              A4038E64C20249CB8207C1D6 /* MinSizeRel */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = MinSizeRel;
+              };
+              BC917F6FEA184C07B8D7D0F0 /* RelWithDebInfo */ = {
+                     isa = PBXBuildStyle;
+                     buildSettings = {
+                            COPY_PHASE_STRIP = NO;
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+              EFC161017B3B4918B9E5F690 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 5A8BE0488FCD4F97818C93C2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = E844CEC5A0E2468892D82AED;
+                     remoteInfo = surface;
+              };
+              90BC4B901B664C6E8B9B51A6 /* PBXContainerItemProxy */ = {
+                     isa = PBXContainerItemProxy;
+                     containerPortal = 5A8BE0488FCD4F97818C93C2 /* Project object */;
+                     proxyType = 1;
+                     remoteGlobalIDString = 2FEF8C7DFE4A4B11A8ACBCC7;
+                     remoteInfo = ZERO_CHECK;
+              };
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+BF650EAD7A384515B7E4CF37 /* /Users/jedwards/projects/live-surface/CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text"; name = "CMakeLists.txt"; path = "CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+8BD77503BEBC472F9FD6EF5A /* /Users/jedwards/projects/live-surface/main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "main.cpp"; path = "main.cpp"; sourceTree = SOURCE_ROOT; };
+CA69BCE6E3EB403F91E6515F /* /Users/jedwards/projects/live-surface/texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "texture.cpp"; path = "texture.cpp"; sourceTree = SOURCE_ROOT; };
+B6524FC0AF094CD1AC30E3F7 /* /Users/jedwards/projects/live-surface/canvas2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "canvas2d.cpp"; path = "canvas2d.cpp"; sourceTree = SOURCE_ROOT; };
+74740C0A0C95408BAB7E1148 /* /Users/jedwards/projects/live-surface/gl2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "gl2d.cpp"; path = "gl2d.cpp"; sourceTree = SOURCE_ROOT; };
+F4B81AF34BCB49FA83D577DE /* /Users/jedwards/projects/live-surface/image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "image.cpp"; path = "image.cpp"; sourceTree = SOURCE_ROOT; };
+E15D7EBC2FA54FD48E1FBE37 /* /Users/jedwards/projects/live-surface/dijkstra2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "dijkstra2.cpp"; path = "dijkstra2.cpp"; sourceTree = SOURCE_ROOT; };
+F62CF1283A644A5C91794E8C /* /Users/jedwards/projects/live-surface/image_graph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "image_graph.cpp"; path = "image_graph.cpp"; sourceTree = SOURCE_ROOT; };
+906DB841F83B4DF7900AB711 /* /Users/jedwards/projects/live-surface/snode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.cpp.cpp"; name = "snode.cpp"; path = "snode.cpp"; sourceTree = SOURCE_ROOT; };
+E1697BF8DEF84638BDAA7A55 /* surface */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = surface; refType = 0; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+              FFFB8B12A7674874B6946DA9  = {
+                     isa = PBXGroup;
+                     children = (
+                            05E4ECFF8F824022A156807C /* Sources */,
+                            1B322CD522BA4A71B8B3A924 /* Resources */,
+                            2A7AA2D80C2F4E8CACA868AB /* Products */,
+                     );
+                     sourceTree = "<group>";
+              };
+              05E4ECFF8F824022A156807C /* Sources */ = {
+                     isa = PBXGroup;
+                     children = (
+                            4C9E81F1F07D4ABAAABA5C54 /* ALL_BUILD */,
+                            3397482E669347F2A59C670A /* ZERO_CHECK */,
+                            BF40BDA037674CED985C45B4 /* surface */,
+                     );
+                     name = Sources;
+                     sourceTree = "<group>";
+              };
+              1B322CD522BA4A71B8B3A924 /* Resources */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = Resources;
+                     sourceTree = "<group>";
+              };
+              4C9E81F1F07D4ABAAABA5C54 /* ALL_BUILD */ = {
+                     isa = PBXGroup;
+                     children = (
+                            A527D04FB99C4FFB94416883 /* CMake Rules */,
+                            BF650EAD7A384515B7E4CF37 /* /Users/jedwards/projects/live-surface/CMakeLists.txt */,
+                     );
+                     name = ALL_BUILD;
+                     sourceTree = "<group>";
+              };
+              A527D04FB99C4FFB94416883 /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              3397482E669347F2A59C670A /* ZERO_CHECK */ = {
+                     isa = PBXGroup;
+                     children = (
+                            DB66312C7278425488C1BBAE /* CMake Rules */,
+                            BF650EAD7A384515B7E4CF37 /* /Users/jedwards/projects/live-surface/CMakeLists.txt */,
+                     );
+                     name = ZERO_CHECK;
+                     sourceTree = "<group>";
+              };
+              DB66312C7278425488C1BBAE /* CMake Rules */ = {
+                     isa = PBXGroup;
+                     children = (
+                     );
+                     name = "CMake Rules";
+                     sourceTree = "<group>";
+              };
+              BF40BDA037674CED985C45B4 /* surface */ = {
+                     isa = PBXGroup;
+                     children = (
+                            F7961032AC31470186F8E998 /* Source Files */,
+                            BF650EAD7A384515B7E4CF37 /* /Users/jedwards/projects/live-surface/CMakeLists.txt */,
+                     );
+                     name = surface;
+                     sourceTree = "<group>";
+              };
+              F7961032AC31470186F8E998 /* Source Files */ = {
+                     isa = PBXGroup;
+                     children = (
+                            8BD77503BEBC472F9FD6EF5A /* /Users/jedwards/projects/live-surface/main.cpp */,
+                            CA69BCE6E3EB403F91E6515F /* /Users/jedwards/projects/live-surface/texture.cpp */,
+                            B6524FC0AF094CD1AC30E3F7 /* /Users/jedwards/projects/live-surface/canvas2d.cpp */,
+                            74740C0A0C95408BAB7E1148 /* /Users/jedwards/projects/live-surface/gl2d.cpp */,
+                            F4B81AF34BCB49FA83D577DE /* /Users/jedwards/projects/live-surface/image.cpp */,
+                            E15D7EBC2FA54FD48E1FBE37 /* /Users/jedwards/projects/live-surface/dijkstra2.cpp */,
+                            F62CF1283A644A5C91794E8C /* /Users/jedwards/projects/live-surface/image_graph.cpp */,
+                            906DB841F83B4DF7900AB711 /* /Users/jedwards/projects/live-surface/snode.cpp */,
+                     );
+                     name = "Source Files";
+                     sourceTree = "<group>";
+              };
+              2A7AA2D80C2F4E8CACA868AB /* Products */ = {
+                     isa = PBXGroup;
+                     children = (
+                            E1697BF8DEF84638BDAA7A55 /* surface */,
+                     );
+                     name = Products;
+                     sourceTree = "<group>";
+              };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+              E844CEC5A0E2468892D82AED /* surface */ = {
+                     isa = PBXNativeTarget;
+                     buildConfigurationList = BD62A3837BA04F7197DE350F /* Build configuration list for PBXNativeTarget "surface" */;
+                     buildPhases = (
+                            8437FA085BAF4C37836E472B /* Sources */,
+                            0AD79A904F5C4547A3DC44C1 /* CMake PostBuild Rules */,
+                     );
+                     buildRules = (
+                     );
+                     dependencies = (
+                            90749AFF2F3743D1A5CD3CF8 /* PBXTargetDependency */,
+                     );
+                     name = surface;
+                     productName = surface;
+                     productReference = E1697BF8DEF84638BDAA7A55 /* surface */;
+                     productType = "com.apple.product-type.tool";
+              };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+              5A8BE0488FCD4F97818C93C2 /* Project object */ = {
+                     isa = PBXProject;
+                     attributes = {
+                            BuildIndependentTargetsInParallel = YES;
+                     };
+                     buildConfigurationList = 58763478F087463F9029A050 /* Build configuration list for PBXProject  "LiveSurface" */;
+                     buildSettings = {
+                     };
+                     buildStyles = (
+                            AC1B818C4EC0428B9337D6FA /* Debug */,
+                            05E3BD38E8F04C0299AB8578 /* Release */,
+                            A4038E64C20249CB8207C1D6 /* MinSizeRel */,
+                            BC917F6FEA184C07B8D7D0F0 /* RelWithDebInfo */,
+                     );
+                     compatibilityVersion = "Xcode 3.2";
+                     hasScannedForEncodings = 0;
+                     mainGroup = FFFB8B12A7674874B6946DA9;
+                     projectDirPath = "..";
+                     projectRoot = "";
+                     targets = (
+                            6CAA297BCE7445CFB5F54EBA /* ALL_BUILD */,
+                            2FEF8C7DFE4A4B11A8ACBCC7 /* ZERO_CHECK */,
+                            E844CEC5A0E2468892D82AED /* surface */,
+                     );
+              };
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+              5A61C0550E234D16ABD50FD8 /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              3BC60184B6FE46EBAD4E9BAC /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/jedwards/projects/live-surface/xcode -f /Users/jedwards/projects/live-surface/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              7FE7AD9857A74C38884B6F2A /*  */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     inputPaths = (
+                     );
+                     outputPaths = (
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "# shell script goes here
+exit 0";
+                     showEnvVarsInLog = 0;
+              };
+              781ACCB6C42B4825B78CE281 /* CMake Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/jedwards/projects/live-surface/xcode -f /Users/jedwards/projects/live-surface/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+              0AD79A904F5C4547A3DC44C1 /* CMake PostBuild Rules */ = {
+                     isa = PBXShellScriptBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                     );
+                     name = "CMake PostBuild Rules";
+                     runOnlyForDeploymentPostprocessing = 0;
+                     shellPath = /bin/sh;
+                     shellScript = "make -C /Users/jedwards/projects/live-surface/xcode -f /Users/jedwards/projects/live-surface/xcode/CMakeScripts/surface_postBuildPhase.make$CONFIGURATION all";
+                     showEnvVarsInLog = 0;
+              };
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+              8437FA085BAF4C37836E472B /* Sources */ = {
+                     isa = PBXSourcesBuildPhase;
+                     buildActionMask = 2147483647;
+                     files = (
+                            4B608212FF384187BCF5C8D1 /* /Users/jedwards/projects/live-surface/main.cpp */,
+                            6B3169AFFB6049DAA11C20FB /* /Users/jedwards/projects/live-surface/texture.cpp */,
+                            5FE0565F6E50453790A847B3 /* /Users/jedwards/projects/live-surface/canvas2d.cpp */,
+                            B692BAD8B5994F0293EE5A11 /* /Users/jedwards/projects/live-surface/gl2d.cpp */,
+                            86739748C92B42A7A68F1593 /* /Users/jedwards/projects/live-surface/image.cpp */,
+                            170A2FCB84D843E3A871B75D /* /Users/jedwards/projects/live-surface/dijkstra2.cpp */,
+                            70DA57DC67374A4EA6EED356 /* /Users/jedwards/projects/live-surface/image_graph.cpp */,
+                            2E55AA2A02C8492487ED35AB /* /Users/jedwards/projects/live-surface/snode.cpp */,
+                     );
+                     runOnlyForDeploymentPostprocessing = 0;
+              };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+              ECC97FEBA9F34927B6584FA0 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = E844CEC5A0E2468892D82AED /* surface */;
+                     targetProxy = EFC161017B3B4918B9E5F690 /* PBXContainerItemProxy */;
+              };
+              90749AFF2F3743D1A5CD3CF8 /* PBXTargetDependency */ = {
+                     isa = PBXTargetDependency;
+                     target = 2FEF8C7DFE4A4B11A8ACBCC7 /* ZERO_CHECK */;
+                     targetProxy = 90BC4B901B664C6E8B9B51A6 /* PBXContainerItemProxy */;
+              };
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+              09AC308A63C745879CD1EE0C /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode/build";
+                     };
+                     name = Debug;
+              };
+              7DDB694395C241AAA8FA986E /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode/build";
+                     };
+                     name = Release;
+              };
+              F3F8B5BC7A144FB9B9AE752F /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode/build";
+                     };
+                     name = MinSizeRel;
+              };
+              824C209C75CA48FF9E21D150 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+                            ONLY_ACTIVE_ARCH = YES;
+                            SDKROOT = "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode/build";
+                     };
+                     name = RelWithDebInfo;
+              };
+              77B1BAF3ECFA4D659AF98594 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              D2FEC88AE1C34C458374EEAA /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              135BAAC580B24BC2A2031725 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              1E79CE2F623E4E40B0AB0D15 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ALL_BUILD;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              ECADE98604974BB08E9AF2F3 /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              604F14A39471441A91F85839 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              8B49986301E941498A9F2789 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              E3DEC92B02504204931B0EE8 /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            OTHER_CFLAGS = "   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = ZERO_CHECK;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+              E1BDB7A2FCC44F548E38123F /* Debug */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 0;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "     -I/opt/local/include/ImageMagick-6";
+                            OTHER_CPLUSPLUSFLAGS = "     -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "-L/opt/local/lib -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/X11/lib/libX11.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = surface;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Debug;
+              };
+              ADA2E525FE26495997AD99A0 /* Release */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 3;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "-L/opt/local/lib -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/X11/lib/libX11.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = surface;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = Release;
+              };
+              23C43C1790B1406EA66B8872 /* MinSizeRel */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = s;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "    -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "-L/opt/local/lib -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/X11/lib/libX11.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = surface;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = MinSizeRel;
+              };
+              7A5DDE9D089B4A6DBD13AC1E /* RelWithDebInfo */ = {
+                     isa = XCBuildConfiguration;
+                     buildSettings = {
+                            EXECUTABLE_PREFIX = "";
+                            EXECUTABLE_SUFFIX = "";
+                            GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+                            GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+                            GCC_OPTIMIZATION_LEVEL = 2;
+                            GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'", __MAC__, "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", "'MAGICKCORE_HDRI_ENABLE=0'", "'MAGICKCORE_QUANTUM_DEPTH=16'", );
+                            GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+                            HEADER_SEARCH_PATHS = ("/Users/jedwards/projects/live-surface/ms", "/Users/jedwards/projects/live-surface/ms/ann", "/Users/jedwards/projects/live-surface/ms/ngl", /opt/local/include, );
+                            INSTALL_PATH = "";
+                            LIBRARY_SEARCH_PATHS = "";
+                            OTHER_CFLAGS = "       -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG   -I/opt/local/include/ImageMagick-6";
+                            OTHER_LDFLAGS = "-L/opt/local/lib -lMagick++-6.Q16 -lMagickWand-6.Q16 -lMagickCore-6.Q16 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /opt/local/lib/libjpeg.dylib /opt/local/lib/libpng.dylib /usr/lib/libz.dylib /opt/X11/lib/libX11.dylib";
+                            OTHER_REZFLAGS = "";
+                            PRODUCT_NAME = surface;
+                            SECTORDER_FLAGS = "";
+                            SYMROOT = "/Users/jedwards/projects/live-surface/xcode";
+                            USE_HEADERMAP = NO;
+                            WARNING_CFLAGS = ("-Wmost", "-Wno-four-char-constants", "-Wno-unknown-pragmas", );
+                     };
+                     name = RelWithDebInfo;
+              };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+              58763478F087463F9029A050 /* Build configuration list for PBXProject  "LiveSurface" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            09AC308A63C745879CD1EE0C /* Debug */,
+                            7DDB694395C241AAA8FA986E /* Release */,
+                            F3F8B5BC7A144FB9B9AE752F /* MinSizeRel */,
+                            824C209C75CA48FF9E21D150 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              1FF16D0E4646450AB431AFC7 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            77B1BAF3ECFA4D659AF98594 /* Debug */,
+                            D2FEC88AE1C34C458374EEAA /* Release */,
+                            135BAAC580B24BC2A2031725 /* MinSizeRel */,
+                            1E79CE2F623E4E40B0AB0D15 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              64AE402D2043465CA467EE8D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            ECADE98604974BB08E9AF2F3 /* Debug */,
+                            604F14A39471441A91F85839 /* Release */,
+                            8B49986301E941498A9F2789 /* MinSizeRel */,
+                            E3DEC92B02504204931B0EE8 /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+              BD62A3837BA04F7197DE350F /* Build configuration list for PBXNativeTarget "surface" */ = {
+                     isa = XCConfigurationList;
+                     buildConfigurations = (
+                            E1BDB7A2FCC44F548E38123F /* Debug */,
+                            ADA2E525FE26495997AD99A0 /* Release */,
+                            23C43C1790B1406EA66B8872 /* MinSizeRel */,
+                            7A5DDE9D089B4A6DBD13AC1E /* RelWithDebInfo */,
+                     );
+                     defaultConfigurationIsVisible = 0;
+                     defaultConfigurationName = Debug;
+              };
+/* End XCConfigurationList section */
+       };
+       rootObject = 5A8BE0488FCD4F97818C93C2;
+}
